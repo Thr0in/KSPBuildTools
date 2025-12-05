@@ -101,7 +101,7 @@ jobs:
 
       - name: assemble-release
         id: assemble-release
-        uses: KSPModdingLibs/KSPBuildTools/.github/actions/assemble-release@1.1.1
+        uses: Thr0in/KSPBuildTools/.github/actions/assemble-release@1.1.1
         with:
           artifacts: ${{ inputs.artifacts }}
           output-file-name: ${{ github.event.repository.name }}-${{ env.VERSION_STRING }}
